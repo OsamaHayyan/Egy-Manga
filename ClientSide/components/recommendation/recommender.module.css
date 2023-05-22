@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  max-width: 1408px;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 32px;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+.recommendationsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 19px;
+}

@@ -1,0 +1,39 @@
+.validation {
+  width: 598px;
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 16px;
+  color: #ff0f0f;
+  position: absolute;
+}
+
+.container {
+  width: 100%;
+}
+
+.inputFile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  min-width: 641px;
+  height: 81.27px;
+  border-bottom: 1px solid #ffffff;
+}
+.selectedFiles {
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 16px;
+  flex-grow: 1;
+}
+.selectedFiles > p {
+  white-space: nowrap;
+  font-weight: 300;
+  font-size: 24px;
+  color: #ffffff;
+}

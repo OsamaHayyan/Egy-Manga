@@ -1,0 +1,15 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsData {
+  flex: 1 0 auto;
+  width: 100%;
+  position: relative;
+}
+.pagenation {
+  flex-shrink: 0;
+  padding: 20px;
+}

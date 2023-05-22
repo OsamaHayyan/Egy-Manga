@@ -1,0 +1,65 @@
+.formStyle {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 500px;
+  position: relative;
+  background: rgba(30, 30, 30, 0.5);
+}
+.formStyle::before {
+  content: "";
+  background-image: url(../public/images/backgroundMangaForm.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.2;
+}
+
+.formHeader {
+  height: 54px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #d100b2;
+  margin-bottom: 36px;
+}
+
+.container {
+  margin: 50px 0 100px 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 80px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 55px;
+  width: 100%;
+}
+
+.submit > button {
+  background: linear-gradient(107.32deg, #d100b2 19.21%, #0014ff 205.16%);
+  border-radius: 5px;
+  width: 426px;
+  height: 68px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}

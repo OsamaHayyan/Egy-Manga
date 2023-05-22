@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.passwordContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 80px;
+  width: 636px;
+  height: 48px;
+}
+.passwordContainer > div > div {
+  width: 278px;
+}

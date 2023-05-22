@@ -1,0 +1,17 @@
+.inputStyle,
+.inputUploadStyle {
+  height: 56px !important;
+  padding: 0px 0px 8px 8px !important;
+}
+.inputUploadStyle > div > p {
+  font-size: 32px !important;
+  font-weight: 400 !important;
+}
+.inputStyle > input,
+.inputStyle > input::placeholder {
+  font-size: 32px;
+  font-weight: 400;
+}
+.formStyle > div > div {
+  gap: 42px !important;
+}

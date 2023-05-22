@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  margin-top: 104px;
+  margin-bottom: 100px;
+}
+
+.mangaSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.chapterSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 65px;
+  width: 1512px;
+}
+
+.recommendationSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.imageSide {
+  position: relative;
+  height: 982px;
+  flex-grow: 1;
+}
+
+.backgroundImage {
+  object-fit: cover;
+  object-position: right;
+}
+.formSide {
+  width: 884px;
+  padding-left: 11px;
+}
+
+.selected {
+  width: 255px;
+  height: 179px;
+  background: #000000;
+  border: none;
+  border-radius: 100px 0 0 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  position: absolute;
+}
+
+.loginBtnPosition {
+  right: 0;
+  top: 250px;
+}
+
+.loginTextPosition {
+  right: 72px;
+  top: 310px;
+}
+
+.signBtnPosition {
+  right: 0;
+  top: 404px;
+}
+
+.signTextPosition {
+  right: 45px;
+  top: 465px;
+}
+
+.textNotSelected {
+  position: absolute;
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffffff;
+  z-index: 2;
+}
+
+.selected::before {
+  content: "";
+  position: absolute;
+
+  background-color: transparent;
+  bottom: -80px;
+  right: 0;
+  height: 78px;
+  width: 85px;
+  border-top-right-radius: 100%;
+  box-shadow: 19px -24px 0px 19px #000000;
+}
+
+.selected::after {
+  content: "";
+  position: absolute;
+
+  background-color: transparent;
+  top: -80px;
+  right: 0;
+  height: 78px;
+  width: 85px;
+  border-bottom-right-radius: 100%;
+  box-shadow: 19px 24px 0px 19px #000000;
+}
+
+.textSelected {
+  z-index: 2;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: #d100b2;
+  position: relative;
+}
+
+.background {
+  position: absolute;
+  inset: -5px;
+  backdrop-filter: blur(7.5px);
+  z-index: 1;
+}
