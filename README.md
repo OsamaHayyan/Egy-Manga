@@ -1,6 +1,8 @@
 # EgyManga
+A manga platform aims to promote the culture of Comics from various cultures and assist Arab creators and
+translators in presenting their works to readers, with strong content protection measures.
 
-### `preview`
+## Website
 
 https://egymanga.me/
 
@@ -15,7 +17,7 @@ https://egymanga.me/
   - Authentication using JWT, Authorization
   - Search Algorithm
 
-### `packages`
+## packages
 
  - react
  - react script
@@ -27,7 +29,7 @@ https://egymanga.me/
  - bootstrap
 
 
-### `Technologies`
+## Technologies
 
 - Back-End:
   - NodeJs
